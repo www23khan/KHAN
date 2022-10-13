@@ -3,15 +3,18 @@
 Datasets are available in [here](https://drive.google.com/drive/folders/1K4yDq93t5qUQqe_VzccejofWe3EjYSsf?usp=sharing).
 
 ## Details
-1. main folder consists of codes for KCD model, semmain folder indeciates codes for Semeval dataset and allmain folder indeciates codes for Allsides dataset seperately.
-2. sem/Train folder is Semeval training data.
-3. if you need training data for allside dataset, you can click [here](https://drive.google.com/drive/folders/1onVpTG09xYVErbidpVpaxNbEEGTduKoN?usp=sharing)
-4. if you need Trained Model, you can click [here](https://drive.google.com/drive/folders/1MLtZo4KGFPqCGMmuAa8mzhr58UT_YbF6?usp=sharing)
+1. main folder[KHAN] consists of data for KHAN model, article data folder includes three datasets used for model training and KG data folder includes political KG components used for knowledge encoding.
+2. SemEval, Allsides-S, Allsides-L folders are news article data consisting of title, text, and label.
+3. KG-conservative, KG-liberal folders provide entities.dict, relations.dict, and triplets.
+4. pre-trained folder provide common, conservative, and liberal embeddings pre-trained by RotatE, ModE, HAKE KGE methods.
+5. if you need train data for Allside-S, Allsides-L datasets, you can click [here](https://drive.google.com/drive/u/2/folders/1ksV0PUncXyBnEHGPB4H4mae2ybXX3Ch0)
+6. if you need political KG data, you can click [here](https://drive.google.com/drive/u/2/folders/14EgeI1RdSTccETqRgDd36writP6lUu1R)
+7. if you need pre-trained KG embeddings, you can click [here](https://drive.google.com/drive/u/2/folders/14EgeI1RdSTccETqRgDd36writP6lUu1R)
 
 ## File structure:
 ```
 ├── KHAN
-      ├── datasets      # data for KHAN, you need to download from [google drive](https://drive.google.com/drive/folders/1K4yDq93t5qUQqe_VzccejofWe3EjYSsf?usp=sharing)
+      ├── datasets      # data for KHAN, you need to download from above google drive
             ├── article data
                   ├── SemEval
                   ├── Allsides-S
