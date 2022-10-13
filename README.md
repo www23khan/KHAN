@@ -10,9 +10,6 @@ Datasets are available in [here](https://drive.google.com/drive/folders/1K4yDq93
 
 ## File structure:
 ```
-
-## File structure:
-```
 ├── KHAN
       ├── datasets      # data for KHAN, you need to download from google drive
             ├── article data
