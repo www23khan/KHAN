@@ -14,7 +14,7 @@ Datasets are available in [here](https://drive.google.com/drive/folders/1K4yDq93
 ## File structure:
 ```
 ├── KHAN
-      ├── datasets      # data for KHAN, you need to download from above google drive
+      ├── datasets             # data for KHAN, you need to download from above google drive
             ├── article data
                   ├── SemEval
                   ├── Allsides-S
