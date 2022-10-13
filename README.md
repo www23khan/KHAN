@@ -58,7 +58,7 @@ python3 main.py \
   --num_epochs=50 \
   --learning_rate=0.001 \
   --max_sentence=20 \
-  --embed_size=128 \
+  --embed_size=256 \
   --dropout=0.3 \
   --num_layer=1 \
   --num_head=4 \
