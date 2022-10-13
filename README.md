@@ -8,7 +8,7 @@ Datasets are available in [here](https://drive.google.com/drive/folders/1K4yDq93
 3. KG-conservative, KG-liberal folders provide entities.dict, relations.dict, and triplets.
 4. pre-trained folder provide common, conservative, and liberal embeddings pre-trained by RotatE, ModE, HAKE KGE methods.
 5. if you need train data for Allside-S, Allsides-L datasets, you can click [here](https://drive.google.com/drive/u/2/folders/1ksV0PUncXyBnEHGPB4H4mae2ybXX3Ch0)
-6. if you need political KG data, you can click [here](https://drive.google.com/drive/u/2/folders/14EgeI1RdSTccETqRgDd36writP6lUu1R)
+6. if you need political KG data, you can click [here](https://drive.google.com/drive/u/2/folders/1DHlKOhKgISw9VTYmbMvnsIbaaLRtqhbq)
 7. if you need pre-trained KG embeddings, you can click [here](https://drive.google.com/drive/u/2/folders/14EgeI1RdSTccETqRgDd36writP6lUu1R)
 
 ## File structure:
