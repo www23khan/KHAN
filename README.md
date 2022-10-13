@@ -1,6 +1,6 @@
 # KHAN: Knowledge-Aware Hierarchical Attention Networks for Accurate Political Stance Prediction
 
-![The overview of KHAN](./assets/model_overview.pdf)
+![The overview of KHAN](./assets/khan_overview.png)
 
 ## Details
 1. main folder[KHAN] consists of data for KHAN model, article data folder includes three datasets used for model training and KG data folder includes political KG components used for knowledge encoding.
