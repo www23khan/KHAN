@@ -1,15 +1,12 @@
 # KHAN: Knowledge-Aware Hierarchical Attention Networks for Accurate Political Stance Prediction
 
+## The overview of KHAN
 ![The overview of KHAN](./assets/khan_overview.png)
 
-## Details
-1. main folder[KHAN] consists of data for KHAN model, article data folder includes three datasets used for model training and KG data folder includes political KG components used for knowledge encoding.
-2. SemEval, Allsides-S, Allsides-L folders are news article data consisting of title, text, and label.
-3. KG-conservative, KG-liberal folders provide entities.dict, relations.dict, and triplets.
-4. pre-trained folder provide common, conservative, and liberal embeddings pre-trained by RotatE, ModE, HAKE KGE methods.
-5. if you need train data for Allside-S, Allsides-L datasets, you can click [here](https://drive.google.com/drive/u/2/folders/1ksV0PUncXyBnEHGPB4H4mae2ybXX3Ch0)
-6. if you need political KG data, you can click [here](https://drive.google.com/drive/u/2/folders/1DHlKOhKgISw9VTYmbMvnsIbaaLRtqhbq)
-7. if you need pre-trained KG embeddings, you can click [here](https://drive.google.com/drive/u/2/folders/14EgeI1RdSTccETqRgDd36writP6lUu1R)
+## Descriptions
+1. News articles datasets (SemEval, AllSides-S, AllSides-L): [link](https://drive.google.com/drive/u/2/folders/1ksV0PUncXyBnEHGPB4H4mae2ybXX3Ch0)
+2. Political Knowledge Graphs (KG-conservative, KG-liberal): [link](https://drive.google.com/drive/u/2/folders/1DHlKOhKgISw9VTYmbMvnsIbaaLRtqhbq)
+3. Pre-trained KG embeddings (common, conservative, liberal): [link](https://drive.google.com/drive/u/2/folders/14EgeI1RdSTccETqRgDd36writP6lUu1R)
 
 ## File structure:
 ```
