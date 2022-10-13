@@ -32,22 +32,36 @@ Datasets are available in [here](https://drive.google.com/drive/folders/1K4yDq93
             ├── conservative_emb
             └── liberal_emb
 
-## Dependencies
-Our code runs on the Titan X GPU with 12GB memory, with the following packages installed:
-```
-Python 3.8.5
-torch 1.7.1
-pytorch_lightning
-numpy
-torch_geometric
-argparse
-sklearn
-pickle
 ```
 
-## How to reproduce
-train the model by running
+## Dependencies
+Our code runs on the Intel i7-9700k CPU with 64GB memory and NVIDIA RTX 2080 Ti GPU with 12GB, with the following packages installed:
 ```
-python Run_Model.py
+python 3.8.10
+torch 1.11.0
+torchtext 0.12.0
+pandas
+numpy
+argparse
+sklearn
+```
+
+## How to train KHAN model
+train the model by running:
+```
+python3 main.py \
+  --gpu_index=0 \
+  --batch_size=16 \
+  --num_epochs=50 \
+  --learning_rate=0.001 \
+  --max_sentence=20 \
+  --embed_size=128 \
+  --dropout=0.3 \
+  --num_layer=1 \
+  --num_head=4 \
+  --d_hid=128 \
+  --dataset=SEMEVAL \
+  --alpha=0.6 \
+  --beta=0.2
 ```
 
