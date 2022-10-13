@@ -4,14 +4,14 @@
 ![The overview of KHAN](./assets/khan_overview.png)
 
 ## Descriptions
-1. News articles datasets (SemEval, AllSides-S, AllSides-L): [link](https://drive.google.com/drive/u/2/folders/1ksV0PUncXyBnEHGPB4H4mae2ybXX3Ch0)
-2. Political Knowledge Graphs (KG-conservative, KG-liberal): [link](https://drive.google.com/drive/u/2/folders/1DHlKOhKgISw9VTYmbMvnsIbaaLRtqhbq)
-3. Pre-trained KG embeddings (common, conservative, liberal): [link](https://drive.google.com/drive/u/2/folders/14EgeI1RdSTccETqRgDd36writP6lUu1R)
+1. News articles datasets (SemEval, AllSides-S, AllSides-L): [**link**](https://drive.google.com/drive/u/2/folders/1ksV0PUncXyBnEHGPB4H4mae2ybXX3Ch0)
+2. Political Knowledge Graphs (KG-conservative, KG-liberal): [**link**](https://drive.google.com/drive/u/2/folders/1DHlKOhKgISw9VTYmbMvnsIbaaLRtqhbq)
+3. Pre-trained KG embeddings (common, conservative, liberal): [**link**](https://drive.google.com/drive/u/2/folders/14EgeI1RdSTccETqRgDd36writP6lUu1R)
 
 ## File structure:
 ```
 ├── KHAN
-      ├── datasets             # data for KHAN, you need to download from above google drive
+      ├── datasets             # data for KHAN, you can download from above **anonymous google drive link**
             ├── article data
                   ├── SemEval
                   ├── Allsides-S
